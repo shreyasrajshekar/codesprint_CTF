@@ -1,12 +1,9 @@
-import { form } from "viem/chains";
+import CloudWatch from '@/components/formui/CloudWatch';
 
-export default function auth(){
-    return (
-        <div>
-            <form action="/team">
-                
-            
-            </form>
-        </div>
-    )
+export default function AuthPage() {
+  return (
+    <div className="min-h-screen">
+      <CloudWatch />
+    </div>
+  );
 }
